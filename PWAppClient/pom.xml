@@ -20,4 +20,20 @@
         </dependencies>
     </dependencyManagement>
 
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.openjfx</groupId>
+                    <artifactId>javafx-maven-plugin</artifactId>
+                    <version>0.0.4</version>
+                    <configuration>
+                        <mainClass>edu.szymczak.PWAppClientApplication</mainClass>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+
 </project>
