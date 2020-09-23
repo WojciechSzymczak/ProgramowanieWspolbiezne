@@ -6,10 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="PWAppCommons" />
         <module name="PWAppServer" />
+        <module name="PWAppCommons" />
         <module name="PWAppClient" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="PWAppClient" options="-parameters" />
+      <module name="PWAppCommons" options="-parameters" />
+      <module name="PWAppServer" options="-parameters" />
+    </option>
   </component>
 </project>

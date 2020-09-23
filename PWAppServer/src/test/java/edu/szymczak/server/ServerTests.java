@@ -1,4 +1,4 @@
-package edu.szymczak;
+package edu.szymczak.server;
 
 import org.junit.jupiter.api.Test;
 
